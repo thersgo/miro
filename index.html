@@ -13,7 +13,7 @@
 			border-gray-200 border-b h-22.5
 		">
 			<ul class="flex flex-row items-center gap-5">
-				<img src="images/logo.svg"/>
+				<img src="images/icons/logo.svg"/>
 				<button>Product <img src="images/dropdown.svg"/></button>
 				<button>Solutions <img src="images/dropdown.svg"/></button>
 				<button>Resources <img src="images/dropdown.svg"/></button>
@@ -24,18 +24,22 @@
 				<button><img src="images/globe.svg"/>EN</button>
 				<button>Contact Sales</button>
 				<button>Login</button>
-				<button class="bg-(--core-blue) p-3 rounded-full text-white">
+				<button class="
+					w-38 bg-(--core-blue) p-3 pl-5.5 rounded-full
+					text-white"
+				>
 					Sign up free &#x2192;
 				</button>
 			</ul>
 		</nav>
+		
 		<header class="h-146.5 flex justify-center p-15 gap-10">
 			<div class="flex flex-col gap-3">
 				<h1 class="w-110 font-bold text-5xl">
 					Take ideas from<br/>
 					better to best
 				</h1>
-				<p class="text-lg">
+				<p class="text-lg text-[#050038B8]">
 					Miro is your team's visual platform to connect,<br/>
 					collaborate, and create &mdash; together.
 				</p>
@@ -60,11 +64,119 @@
 			</div>
 			<img src="images/renders.png"/>
 		</header>
-
+		
 		<main>
+			<div class="
+				h-71 flex flex-col justify-center items-center
+				p-15 gap-10"
+			>
+				<p class="text-lg tracking-wide text-[#05003899]">
+					Trusted by 45M+ users
+				</p>
+				<img src="images/trusted_by.svg">
+			</div>
+			<div class="h-153.5 flex flex-col justify-center items-center">
+				<!-- yes, this is a bad way to do this -->
+				<img class="absolute top-200 left-190"
+					src="images/your_idea.png"
+				>
+				<h2 class="text-center text-5xl font-bold">
+					Collaborate without <br/>constraints
+				</h2>
+				<div class="flex gap-5">
+					<div class="w-90 pt-6 px-6 pb-11 flex flex-col gap-7.5">
+						<h3 class="text-2xl font-bold">
+							Free forever
+						</h3>
+						<p>
+							Our free plan gives you unlimited team members,
+							3 boards, and 300+ expert-made templates.
+							Signing up with your work email lets you bring
+							in your team faster. See our <br/>
+							<a class="text-blue-600">pricing plans</a>
+							for more features.
+						</p>
+					</div>
+					<div class="w-90 pt-6 px-6 pb-11 flex flex-col gap-7.5">
+						<h3 class="text-2xl font-bold">
+							Easy Integrations
+						</h3>
+						<p>
+							Miro has 100+ powerful integrations with tools you
+							already use like G<br/>
+							Suite, Slack, and Jira, so your
+							workflow is seamless. View the full<br/>
+							list in our <a class="text-blue-600">Marketplace</a>.
+						</p>
+					</div>
+					<div class="w-90 pt-6 px-6 pb-11 flex flex-col gap-7.5">
+						<h3 class="text-2xl font-bold">
+							Security first
+						</h3>
+						<p>
+							We treat your data like you would &mdash; with the
+							utmost care. We follow industry-leading security
+							standards and give you tools to protect intellectual
+							property. Learn more<br/>
+							at our <a class="text-blue-600">Trust Center</a>.
+						</p>
+					</div>
+				</div>
+				<button class="
+					w-45.5 bg-(--core-blue) p-3 pl-5.5 rounded-full
+					text-white text-lg"
+				>
+					Sign up free &rightarrow;
+				</button>
+			</div>
 			
+			<div class="
+				h-164 py-15 px-37.5
+				flex justify-center items-center
+				gap-34
+			">
+				<div class="w-113.5 flex flex-col gap-5">
+					<h2 class="text-5xl font-bold">
+						Work together, <br/> wherever you work
+					</h2>
+					<p>
+						In the office, remote, or a mix of the two, with Miro, <br/>
+						your team can connect, collaborate, and co-create in <br/>
+						one space no matter where you are.
+					</p>
+					<br/>
+					<a class="text-blue-600">
+						<span class="underline">Learn more</span> &rightarrow;
+					</a>
+				</div>
+				<img class="w-137.5" src="images/hybrid_work.png">
+			</div>
+			
+			<div class="h-154.5 gap-31.25 flex justify-center items-center">
+				<img class="w-137.5" src="images/connect.png">
+				<div class="w-116 flex flex-col gap-5">
+					<h3 class="text-5xl font-bold">
+						Connect<br/> your tools, <br/> close your tabs
+					</h3>
+					<p>
+						Whether you want to edit your Google Docs, resolve <br/>
+						Jira issues, or collaborate over Zoom, Miro has 100+ <br/>
+						integrations with tools you already use and love.
+					</p>
+					<br/>
+					<a class="text-blue-600">
+						<span class="underline">Learn more</span> &rightarrow;
+					</a>
+				</div>
+			</div>
+			
+			<div class="h-163.5 flex justify-center items-center">
+				<img class="absolute"
+					src="images/make_space.png"
+				>
+			</div>
 		</main>
-
+		
 		<footer class="
 			h-171.5 bg-(--dark-blue)
 			text-[18px] font-extralight text-white
@@ -149,7 +261,7 @@
 					<img src="images/icons/linkedin.svg">
 					<img src="images/icons/instagram.svg">
 					<img src="images/icons/youtube.svg">
-					<img src="images/icons/en_white.svg">
+					<img src="images/en_white.svg">
 					<p>&copy; 2022 Miro</p>
 					<p>Terms of Service</p>
 					<p>Privacy Policy</p>
@@ -158,7 +270,7 @@
 				<div class="flex gap-3">
 					<img src="images/app_store.png">
 					<img src="images/google_play.png">
-					<img src="images/icons/icon.png">
+					<img src="images/icons/icon.svg">
 				</div>
 			</div>
 		</footer>
