@@ -18,6 +18,24 @@ ul button {
 	@apply flex items-center gap-2;
 }
 
+.brainstorming {
+	button {
+		@apply p-4 pr-7 border border-gray-200 rounded-full text-sm;
+	};
+	
+	div ul {
+		@apply flex flex-col gap-3;
+		li {
+			@apply flex gap-2;
+			&::before {
+				content: url("images/checkmark.svg");
+				position: relative;
+				top: -3px;
+			}
+		};
+	};
+}
+
 footer {
 	div div div { @apply flex flex-col gap-5 }; /* lol */
 	ul { @apply flex flex-col gap-2 };
