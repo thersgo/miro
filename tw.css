@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+* {
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+	line-height: calc(1em + .5rem);
+
+	--core-blue: #4262ff;
+	--dark-blue: #050038;
+}
+
+main p { 
+	@apply text-lg;
+	color: #05003899;
+}
+
+ul button {
+	@apply flex items-center gap-2;
+}
+
+footer {
+	div div div { @apply flex flex-col gap-5 }; /* lol */
+	ul { @apply flex flex-col gap-2 };
+	h3 { @apply text-xl font-bold };
+	a { @apply underline after:content-['→']};
+}
